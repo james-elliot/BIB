@@ -2426,4 +2426,33 @@ radiologists.*},
   url    = {https://www.theverge.com/2019/8/9/20798900/marvin-minsky-jeffrey-epstein-sex-trafficking-island-court-records-unsealed},
 }
 
+@Misc{Betley2025,
+  author    = {Betley, Jan and Tan, Daniel and Warncke, Niels and Sztyber-Betley, Anna and Bao, Xuchan and Soto, Martín and Labenz, Nathan and Evans, Owain},
+  date      = {2025},
+  title     = {Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs},
+  doi       = {10.48550/ARXIV.2502.17424},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  keywords  = {Cryptography and Security (cs.CR), Artificial Intelligence (cs.AI), Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  priority  = {prio1},
+  publisher = {arXiv},
+}
+
+ 
+@Misc{Berglund2024,
+  author     = {Berglund, Lukas and Tong, Meg and Kaufmann, Max and Balesni, Mikita and Stickland, Asa Cooper and Korbak, Tomasz and Evans, Owain},
+  date       = {2024-05-26},
+  title      = {The Reversal Curse: {LLMs} trained on "A is B" fail to learn "B is A"},
+  doi        = {10.48550/arXiv.2309.12288},
+  eprint     = {2309.12288 [cs]},
+  eprinttype = {arxiv},
+  url        = {http://arxiv.org/abs/2309.12288},
+  urldate    = {2025-03-11},
+  abstract   = {We expose a surprising failure of generalization in auto-regressive large language models ({LLMs}). If a model is trained on a sentence of the form "A is B", it will not automatically generalize to the reverse direction "B is A". This is the Reversal Curse. For instance, if a model is trained on "Valentina Tereshkova was the first woman to travel to space", it will not automatically be able to answer the question, "Who was the first woman to travel to space?". Moreover, the likelihood of the correct answer ("Valentina Tershkova") will not be higher than for a random name. Thus, models do not generalize a prevalent pattern in their training set: if "A is B" occurs, "B is A" is more likely to occur. It is worth noting, however, that if "A is B" appears in-context, models can deduce the reverse relationship. We provide evidence for the Reversal Curse by finetuning {GPT}-3 and Llama-1 on fictitious statements such as "Uriah Hawthorne is the composer of Abyssal Melodies" and showing that they fail to correctly answer "Who composed Abyssal Melodies?". The Reversal Curse is robust across model sizes and model families and is not alleviated by data augmentation. We also evaluate {ChatGPT} ({GPT}-3.5 and {GPT}-4) on questions about real-world celebrities, such as "Who is Tom Cruise's mother? [A: Mary Lee Pfeiffer]" and the reverse "Who is Mary Lee Pfeiffer's son?". {GPT}-4 correctly answers questions like the former 79\% of the time, compared to 33\% for the latter. Code available at: https://github.com/lukasberglund/reversal\_curse.},
+  file       = {Preprint PDF:Berglund2024 - The Reversal Curse_ LLMs Trained on _A Is B_ Fail to Learn _B Is A_.pdf:PDF:http\://arxiv.org/pdf/2309.12288v4},
+  keywords   = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
+  number     = {{arXiv}:2309.12288},
+  priority   = {prio1},
+  publisher  = {{arXiv}},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
