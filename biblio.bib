@@ -1,4 +1,42 @@
 % Encoding: UTF-8
+
+ 
+@Misc{Jha2025,
+  author     = {Jha, Rishi and Zhang, Collin and Shmatikov, Vitaly and Morris, John X.},
+  date       = {2025-05-20},
+  title      = {Harnessing the Universal Geometry of Embeddings},
+  doi        = {10.48550/arXiv.2505.12540},
+  eprint     = {2505.12540 [cs]},
+  eprinttype = {arxiv},
+  url        = {http://arxiv.org/abs/2505.12540},
+  urldate    = {2025-05-23},
+  abstract   = {We introduce the first method for translating text embeddings from one vector space to another without any paired data, encoders, or predefined sets of matches. Our unsupervised approach translates any embedding to and from a universal latent representation (i.e., a universal semantic structure conjectured by the Platonic Representation Hypothesis). Our translations achieve high cosine similarity across model pairs with different architectures, parameter counts, and training datasets. The ability to translate unknown embeddings into a different space while preserving their geometry has serious implications for the security of vector databases. An adversary with access only to embedding vectors can extract sensitive information about the underlying documents, sufficient for classification and attribute inference.},
+  file       = {Preprint PDF:Jha2025 - Harnessing the Universal Geometry of Embeddings.pdf:PDF:http\://arxiv.org/pdf/2505.12540v2},
+  keywords   = {Computer Science - Machine Learning},
+  number     = {{arXiv}:2505.12540},
+  priority   = {prio1},
+  publisher  = {{arXiv}},
+}
+
+ 
+@Article{Olatunji2024,
+  author       = {Olatunji, Iyiola E. and Rauch, Jens and Katzensteiner, Matthias and Khosla, Megha},
+  date         = {2024-12},
+  journaltitle = {Big Data},
+  title        = {A Review of Anonymization for Healthcare Data},
+  doi          = {10.1089/big.2021.0169},
+  issn         = {2167-6461},
+  number       = {6},
+  pages        = {538--555},
+  url          = {https://www.liebertpub.com/doi/10.1089/big.2021.0169},
+  urldate      = {2025-05-21},
+  volume       = {12},
+  abstract     = {Mining health data can lead to faster medical decisions, improvement in the quality of treatment, disease prevention, and reduced cost, and it drives innovative solutions within the healthcare sector. However, health data are highly sensitive and subject to regulations such as the General Data Protection Regulation, which aims to ensure patient's privacy. Anonymization or removal of patient identifiable information, although the most conventional way, is the first important step to adhere to the regulations and incorporate privacy concerns. In this article, we review the existing anonymization techniques and their applicability to various types (relational and graph based) of health data. Besides, we provide an overview of possible attacks on anonymized data. We illustrate via a reconstruction attack that anonymization, although necessary, is not sufficient to address patient privacy and discuss methods for protecting against such attacks. Finally, we discuss tools that can be used to achieve anonymization.},
+  file         = {Full Text PDF:https\://www.liebertpub.com/doi/pdf/10.1089/big.2021.0169?url_ver=Z39.88-2003&rfr_id=ori\:rid\:crossref.org&rfr_dat=cr_pub%20%200pubmed:application/pdf},
+  priority     = {prio1},
+  publisher    = {Mary Ann Liebert, Inc., publishers},
+}
+
 @Misc{Coulter2023,
   author     =  {Coulter, Martin and Bensinger, Greg},
   date       = {2023-02-09},
@@ -77,6 +115,7 @@ numpages = {19}
   url       = {https://proceedings.neurips.cc/paper_files/paper/2000/file/728f206c2a01bf572b5940d7d9a8fa4c-Paper.pdf},
   volume    = {13},
 }
+
  
 @Misc{Kanithi2024,
   author     = {Kanithi, Praveen K. and Christophe, Clément and Pimentel, Marco {AF} and Raha, Tathagata and Saadi, Nada and Javed, Hamza and Maslenkova, Svetlana and Hayat, Nasir and Rajan, Ronnie and Khan, Shadab},
@@ -2732,5 +2771,127 @@ radiologists.*},
   ppn_gvk   = {1701781166},
 }
 
+ 
+@Article{Didi2021,
+  author       = {Didi, Ibrahim and Simoncini, David and Vergez, Francois and Dumas, Pierre-Yves and Tavitian, Suzanne and Largeaud, Laetitia and Bidet, Audrey and Rieu, Jean-Baptiste and Luquet, Isabelle and Lechevalier, Nicolas and Delabesse, Eric and Sarry, Audrey and De Grande, Anne-Charlotte and Berard, Emilie and Pigneux, Arnaud and Recher, Christian and Alliot, Jean-Marc and Bertoli, Sarah},
+  date         = {2021-11-23},
+  journaltitle = {Blood},
+  title        = {Artificial Intelligence-Based Predictive Models for Acute Myeloid Leukemia},
+  doi          = {10.1182/blood-2021-145122},
+  issn         = {0006-4971},
+  pages        = {3389},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0006497121053179},
+  urldate      = {2025-05-09},
+  volume       = {138},
+  abstract     = {Introduction In the acute myeloid leukemia ({AML}) setting, artificial intelligence has mainly been used to facilitate diagnosis or to identify biological subcategories. In this work, we trained and compared machine learning and deep learning predictive models of outcome on the data of 3687 consecutive adult {AML} patients included in the {DATAML} registry between 2000 and 2019. We also trained a model to predict the best treatment for newly diagnosed {AML} over 70 years. Methods Feature engineering and selection were done to keep the most relevant variables among clinical and biological characteristics at diagnosis. We worked with 54 features per patient, as well as information about the treatment received (intensive chemotherapy ({IC}) or azacitidine ({AZA})), response and survival. We compared the performance of a gradient boosting algorithm ({XGBoost}) and three neural networks architectures: a multilayer perceptron ({MLP}), a neural oblivious decision ensemble model ({NODE}) and a recurrent relational network ({RRN}). We calibrated {XGBoost} with a grid search algorithm, and used 5-fold cross-validation on the dataset to evaluate all the models. The Shapley Additive Explanations method ({SHAP}) was used to showcase the importance and influence of variables on the predictions. The Boruta algorithm was then used to extract the most important features for prediction. Results In our cohort, 3030 patients (82.2\%) received {IC} and 657 (17.8\%) {AZA} as first line treatment. Median overall survival ({OS}) was 18 and 9 months, respectively. We first designed models for {OS} prediction. In the {IC} cohort, we achieved an accuracy of 68.5\% on predicting {OS} at the 18-month mark, an improvement of 17.5\% over a naïve predictor. The Boruta algorithm selected 13 variables as the most important, with decreasing order of importance: age, cytogenetic risk, {WBC}, {LDH}, platelets count, albumin, {MPO}, mean corpuscular volume, {CD}117, {NPM}1 mutation, {AML} status, multilineage dysmyelopoiesis, {ASXL}1 mutation (Figure 1). When training with only these 13 variables, we achieved an accuracy of 67.8\%. In the {AZA} cohort, we achieved an accuracy of 62.1\% on predicting {OS} at the 9-month mark, an improvement of 11.1\% over a naïve predictor. Here the Boruta algorithm selected only 7 variables: blood blasts, serum ferritin, {CD}56, {LDH}, hemoglobin, {CD}13 and the presence of a disseminated intravascular coagulation. When training with only these 7 variables, we achieved a 61.9\% accuracy. We then designed models to predict the best treatment between {IC} and {AZA} for the 1032 patients older than 70 years. We achieved a 88.5\% accuracy, which is 37.5\% more than a naïve predictor given the distribution of the cohort: 51\% having received {IC} and 49\% having received {AZA}. For this model, 12 features out of 54 were selected by the Boruta algorithm as the most important: age, {TP}53 mutation, bone marrow blasts, {AML} status, disseminated intravascular coagulation, blood blasts, cytogenetic risk, {IDH}2 mutation, {IDH}1 mutation, presence of an infection at diagnosis, {ASXL}1 mutation and presence of leukostasis. Conclusion We show that predictive models can be trained on our database to predict with characteristics at diagnosis the treatment that would be chosen by an expert hematologist between {IC} and {AZA} in newly diagnosed {AML}, give an indication of {OS} with each treatment, and outperform classical statistical analysis or naïve predictors. For the task of predicting {OS}, the improvement over naïve predictors is maximal at the median time of {OS}. We show with the Boruta algorithm that a small number of variables can recapitulate the accuracy of neural networks, which renders this type of model of high interest for routine practice, especially with the advent of targeted therapies. Figure 1 Disclosures Vergez: Pierre Fabre Laboratory: Research Funding; Roche: Research Funding. Dumas: {BMS} Celgene: Consultancy; Astellas: Consultancy; Daiichi-Sankyo: Consultancy. Tavitian: Novartis: Consultancy. Delabesse: Astellas: Consultancy; Novartis: Consultancy. Pigneux: Amgen: Consultancy; Sunesis: Consultancy, Research Funding; {BMS} Celgene: Consultancy, Research Funding; Roche: Consultancy, Research Funding; Novartis: Consultancy, Research Funding. Recher: Pfizer: Honoraria, Membership on an entity's Board of Directors or advisory committees; Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Macrogenics: Honoraria, Membership on an entity's Board of Directors or advisory committees; {MaatPharma}: Research Funding; Jazz: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Janssen: Honoraria; Incyte: Honoraria; Daiichi Sankyo: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; {BMS}/Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Astellas: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Roche: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Takeda: Honoraria, Membership on an entity's Board of Directors or advisory committees; Agios: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; {AbbVie}: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. Bertoli: Astellas: Consultancy; {BMS} Celgene: Consultancy; Abbvie: Consultancy; Jazz Pharmaceuticals: Consultancy.},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0006497121053179/pdfft?md5=1e3df224dceaf73ffad83abcc837b3af&pid=1-s2.0-S0006497121053179-main.pdf&isDTMRedir=Y:application/pdf},
+  shortjournal = {Blood},
+}
+
+ 
+@Article{Roger2025,
+  author       = {Roger, Pauline and Lespargot, Thomas and Boiteux, Catherine and Bailly-Masson, Eric and Auberger, Fabien and Mouysset, Sandrine and Fraysse, Bernard},
+  date         = {2025-02-03},
+  journaltitle = {Audiology \& Neuro-Otology},
+  title        = {Predicting Hearing Aid Outcomes Using Machine Learning},
+  doi          = {10.1159/000543916},
+  issn         = {1421-9700},
+  pages        = {1--9},
+  abstract     = {{INTRODUCTION}: The aims of this study were to measure the effectiveness of hearing aid ({HA}) fitting in improving understanding in quiet and in noise and to investigate the factors that significantly influence these results. This study will be carried out through a retrospective analysis of the results obtained from patients fitted with {HAs} at Amplifon {HA} centers between 2018 and 2021. This study explores and classifies the predictive factors of {HAs} outcomes, looking at the impact of {HA} technology, personalized adjustments made by the hearing care professional, and patient follow-up and daily use (data logging). {METHODS}: The study is based on the analysis of a large population of {HA} users who were fitted in {HA} centers between 2018 and 2021. It included 77,661 patients. {HA} outcome is measured through the improvement of intelligibility in quiet and noise. {eXtreme} Gradient Boosting machine learning method is used to identify predictive factors of {HA} outcome. {SHapley} Additive {exPlanations} Value analysis derived from the game theory is used to evaluate the individual impact of each factor. {RESULTS}: {HA} outcomes are significant in terms of both average improvement per patient of speech intelligibility and the percentage of patients improved. The analysis shows that the level of aided speech perception in quiet and noise is impacted by the choice of technology (category level and manufacturer), fitting parameters (amplification level and binaural loudness balancing) as well as by a high therapy adherence. In particular, binaural loudness balancing was shown to be systematically beneficial to all patients. {CONCLUSION}: Big data analysis is a new relevant method to evaluate predictive factors for {HA} outcomes. It demonstrates {HA} efficiency to improve intelligibility in quiet and noise and shows the impact of hearing care professionals in maximizing patient's outcome through the selection of the most appropriate technology, fitting parameters, and a regular follow-up ensuring a high daily usage. However, global results must be interpreted with caution on such a heterogeneous population. They would need to be refined by an approach using clusters of patients with similar audiological profiles.},
+  keywords     = {Big data, Binaural loudness balancing, Hearing aid benefit, Hearing aids, Machine learning},
+  pmid         = {39899999},
+  shortjournal = {Audiol Neurootol},
+}
+
+ 
+@Article{Sepas2022,
+  author       = {Sepas, Ali and Bangash, Ali Haider and Alraoui, Omar and El Emam, Khaled and El-Hussuna, Alaa},
+  date         = {2022},
+  journaltitle = {Frontiers in Bioinformatics},
+  title        = {Algorithms to anonymize structured medical and healthcare data: A systematic review},
+  doi          = {10.3389/fbinf.2022.984807},
+  issn         = {2673-7647},
+  volume       = {2},
+  abstract     = {Introduction: With many anonymization algorithms developed for structured medical health data ({SMHD}) in the last decade, our systematic review provides a comprehensive bird's eye view of algorithms for {SMHD} anonymization. Methods: This systematic review was conducted according to the recommendations in the Cochrane Handbook for Reviews of Interventions and reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses ({PRISMA}). Eligible articles from the {PubMed}, {ACM} digital library, Medline, {IEEE}, Embase, Web of Science Collection, Scopus, {ProQuest} Dissertation, and Theses Global databases were identified through systematic searches. The following parameters were extracted from the eligible studies: author, year of publication, sample size, and relevant algorithms and/or software applied to anonymize {SMHD}, along with the summary of outcomes. Results: Among 1,804 initial hits, the present study considered 63 records including research articles, reviews, and books. Seventy five evaluated the anonymization of demographic data, 18 assessed diagnosis codes, and 3 assessed genomic data. One of the most common approaches was k-anonymity, which was utilized mainly for demographic data, often in combination with another algorithm; e.g., l-diversity. No approaches have yet been developed for protection against membership disclosure attacks on diagnosis codes. Conclusion: This study reviewed and categorized different anonymization approaches for {MHD} according to the anonymized data types (demographics, diagnosis codes, and genomic data). Further research is needed to develop more efficient algorithms for the anonymization of diagnosis codes and genomic data. The risk of reidentification can be minimized with adequate application of the addressed anonymization approaches. Systematic Review Registration: [http://www.crd.york.ac.uk/prospero], identifier [{CRD}42021228200].},
+  keywords     = {anonymization, de-identification, electronic health records, medical health data, reidentification},
+  pmcid        = {PMC9815524},
+  pmid         = {36619476},
+  priority     = {prio1},
+  shortjournal = {Front Bioinform},
+  shorttitle   = {Algorithms to anonymize structured medical and healthcare data},
+}
+
+ 
+@Article{Pau2025,
+  author       = {Pau, David and Bachot, Camille and Monteil, Charles and Vinet, Laetitia and Boucher, Mathieu and Sella, Nadir and Jegou, Romain},
+  date         = {2025-02-03},
+  journaltitle = {{PLOS} Digital Health},
+  title        = {Comparison of anonymization techniques regarding statistical reproducibility},
+  doi          = {10.1371/journal.pdig.0000735},
+  issn         = {2767-3170},
+  number       = {2},
+  pages        = {e0000735},
+  url          = {https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000735},
+  urldate      = {2025-05-21},
+  volume       = {4},
+  abstract     = {Background Anonymization opens up innovative ways of using secondary data without the requirements of the {GDPR}, as anonymized data does not affect anymore the privacy of data subjects. Anonymization requires data alteration, and this project aims to compare the ability of such privacy protection methods to maintain reliability and utility of scientific data for secondary research purposes. Methods The French data protection authority ({CNIL}) defines anonymization as a processing activity that consists of using methods to make impossible any identification of people by any means in an irreversible manner. To answer project’s objective, a series of analyses were performed on a cohort, and reproduced on four sets of anonymized data for comparison. Four assessment levels were used to evaluate impact of anonymization: level 1 referred to the replication of statistical outputs, level 2 referred to accuracy of statistical results, level 3 assessed data alteration (using Hellinger distances) and level 4 assessed privacy risks (using {WP}29 criteria). Results 87 items were produced on the raw cohort data and then reproduced on each of the four anonymized data. The overall level 1 replication score ranged from 67\% to 100\% depending on the anonymization solution. The most difficult analyses to replicate were regression models (sub-score ranging from 78\% to 100\%) and survival analysis (sub-score ranging from 0\% to 100. The overall level 2 accuracy score ranged from 22\% to 79\% depending on the anonymization solution. For level 3, three methods had some variables with different probability distributions (Hellinger distance = 1). For level 4, all methods had reduced the privacy risk of singling out, with relative risk reductions ranging from 41\% to 65\%. Conclusion None of the anonymization methods reproduced all outputs and results. A trade-off has to be find between context risk and the usefulness of data to answer the research question.},
+  file         = {Full Text PDF:Pau2025 - Comparison of Anonymization Techniques Regarding Statistical Reproducibility.pdf:PDF:https\://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000735&type=printable},
+  keywords     = {Statistical data, Survival analysis, Breast cancer, Cancer risk factors, Patients, Vendors, Surgical and invasive medical procedures, Surgical oncology},
+  langid       = {english},
+  priority     = {prio1},
+  publisher    = {Public Library of Science},
+  shortjournal = {{PLOS} Digital Health},
+}
+
+ 
+@Article{James2021,
+  author       = {James, Stefanie and Harbron, Chris and Branson, Janice and Sundler, Mimmi},
+  date         = {2021-12-13},
+  journaltitle = {Discover Artificial Intelligence},
+  title        = {Synthetic data use: exploring use cases to optimise data utility},
+  doi          = {10.1007/s44163-021-00016-y},
+  issn         = {2731-0809},
+  number       = {1},
+  pages        = {15},
+  url          = {https://doi.org/10.1007/s44163-021-00016-y},
+  urldate      = {2025-05-21},
+  volume       = {1},
+  abstract     = {Synthetic data is a rapidly evolving field with growing interest from multiple industry stakeholders and European bodies. In particular, the pharmaceutical industry is starting to realise the value of synthetic data which is being utilised more prevalently as a method to optimise data utility and sharing, ultimately as an innovative response to the growing demand for improved privacy. Synthetic data is data generated by simulation, based upon and mirroring properties of an original dataset. Here, with supporting viewpoints from across the pharmaceutical industry, we set out to explore use cases for synthetic data across seven key but relatable areas for optimising data utility for improved data privacy and protection. We also discuss the various methods which can be used to produce a synthetic dataset and availability of metrics to ensure robust quality of generated synthetic datasets. Lastly, we discuss the potential merits, challenges and future direction of synthetic data within the pharmaceutical industry and the considerations for this privacy enhancing technology.},
+  file         = {Full Text PDF:James2021 - Synthetic Data Use_ Exploring Use Cases to Optimise Data Utility.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2Fs44163-021-00016-y.pdf},
+  keywords     = {Data Privacy, Data Mining, Statistical Software, Synthetic Chemistry Methodology, Synthetic organisms, Virtual Drug Screening, Synthetic data, Artificial intelligence, Privacy, Privacy enhancing technology, Pharmasecuticals, Software testing, Hackathons, Training, Internal secondary use, External sharing, Data retention, Vendor assessment, Machine learning, Data augmentation, Anonymisation, Pseudoanonymisation},
+  langid       = {english},
+  priority     = {prio1},
+  shortjournal = {Discov Artif Intell},
+  shorttitle   = {Synthetic data use},
+}
+
+ 
+@Article{Machanavajjhala2007,
+  author       = {Machanavajjhala, Ashwin and Kifer, Daniel and Gehrke, Johannes and Venkitasubramaniam, Muthuramakrishnan},
+  date         = {2007-03-01},
+  journaltitle = {{ACM} Trans. Knowl. Discov. Data},
+  title        = {L-diversity: Privacy beyond k-anonymity},
+  doi          = {10.1145/1217299.1217302},
+  issn         = {1556-4681},
+  number       = {1},
+  pages        = {3--es},
+  url          = {https://doi.org/10.1145/1217299.1217302},
+  urldate      = {2025-05-21},
+  volume       = {1},
+  abstract     = {Publishing data about individuals without revealing sensitive information about them is an important problem. In recent years, a new definition of privacy called k-anonymity has gained popularity. In a k-anonymized dataset, each record is indistinguishable from at least k − 1 other records with respect to certain identifying attributes.In this article, we show using two simple attacks that a k-anonymized dataset has some subtle but severe privacy problems. First, an attacker can discover the values of sensitive attributes when there is little diversity in those sensitive attributes. This is a known problem. Second, attackers often have background knowledge, and we show that k-anonymity does not guarantee privacy against attackers using background knowledge. We give a detailed analysis of these two attacks, and we propose a novel and powerful privacy criterion called ℓ-diversity that can defend against such attacks. In addition to building a formal foundation for ℓ-diversity, we show in an experimental evaluation that ℓ-diversity is practical and can be implemented efficiently.},
+  priority     = {prio1},
+  shorttitle   = {L-diversity},
+}
+
+@Report{Anon14,
+  author      = {{Groupe de travail "Article 29" sur la protection des données}},
+  date        = {2014-04-10},
+  institution = {{Directorate C of the European Commission}},
+  title       = {Avis 05/2014 sur les Techniques d’anonymisation},
+  type        = {techreport},
+  number      = {0829/14/FR},
+  url         = {https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_fr.pdf},
+  priority    = {prio1},
+}
 
 @Comment{jabref-meta: databaseType:biblatex;}
