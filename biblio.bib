@@ -1,6 +1,24 @@
 % Encoding: UTF-8
 
  
+@InCollection{Karp1972,
+  author    = {Karp, Richard M.},
+  date      = {1972},
+  title     = {Reducibility among Combinatorial Problems},
+  doi       = {10.1007/978-1-4684-2001-2_9},
+  editor    = {Miller, Raymond E. and Thatcher, James W. and Bohlinger, Jean D.},
+  isbn      = {9781468420012},
+  location  = {Boston, {MA}},
+  pages     = {85--103},
+  publisher = {Springer {US}},
+  url       = {https://doi.org/10.1007/978-1-4684-2001-2_9},
+  urldate   = {2025-09-08},
+  abstract  = {A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains. Through simple encodings from such domains into the set of words over a finite alphabet these problems can be converted into language recognition problems, and we can inquire into their computational complexity. It is reasonable to consider such a problem satisfactorily solved when an algorithm for its solution is found which terminates within a number of steps bounded by a polynomial in the length of the input. We show that a large number of classic unsolved problems of covering, matching, packing, routing, assignment and sequencing are equivalent, in the sense that either each of them possesses a polynomial-bounded algorithm or none of them does.},
+  keywords  = {Polynomial Time, Turing Machine, Regular Expression, Combinatorial Problem, Finite Alphabet},
+  langid    = {english},
+}
+
+ 
 @Misc{Wijmans2025,
   author     = {Wijmans, Erik and Huval, Brody and Hertzberg, Alexander and Koltun, Vladlen and Krähenbühl, Philipp},
   date       = {2025-03-10},
@@ -4467,6 +4485,49 @@ radiologists.*},
   institution = {OpenAI},
   title       = {GPT-5 System Card},
   priority    = {prio1},
+}
+
+ 
+@InProceedings{Cook1971,
+  author    = {Cook, Stephen A.},
+  booktitle = {Proceedings of the third annual {ACM} symposium on Theory of computing},
+  date      = {1971-05-03},
+  title     = {The complexity of theorem-proving procedures},
+  doi       = {10.1145/800157.805047},
+  isbn      = {9781450374644},
+  location  = {New York, {NY}, {USA}},
+  pages     = {151--158},
+  publisher = {Association for Computing Machinery},
+  series    = {{STOC} '71},
+  url       = {https://dl.acm.org/doi/10.1145/800157.805047},
+  urldate   = {2025-09-08},
+  abstract  = {It is shown that any recognition problem solved by a polynomial time-bounded nondeterministic Turing machine can be “reduced” to the problem of determining whether a given propositional formula is a tautology. Here “reduced” means, roughly speaking, that the first problem can be solved deterministically in polynomial time provided an oracle is available for solving the second. From this notion of reducible, polynomial degrees of difficulty are defined, and it is shown that the problem of determining tautologyhood has the same polynomial degree as the problem of determining whether the first of two given graphs is isomorphic to a subgraph of the second. Other examples are discussed. A method of measuring the complexity of proof procedures for the predicate calculus is introduced and discussed.},
+  file      = {Full Text PDF:https\://dl.acm.org/doi/pdf/10.1145/800157.805047:application/pdf},
+}
+
+@InProceedings{Overbeek1992,
+  author    = {Ross Overbeek},
+  booktitle = {PROCEEDINGS OF THE INTERNATIONAL CONFERENCE ON FIFTH GENERATION COMPUTER SYSTEMS 1992},
+  date      = {1992},
+  title     = {The Role of Logic Programming in the 21st Century},
+}
+
+ 
+@Misc{Jesson2024,
+  author     = {Jesson, Andrew and Beltran-Velez, Nicolas and Chu, Quentin and Karlekar, Sweta and Kossen, Jannik and Gal, Yarin and Cunningham, John P. and Blei, David},
+  date       = {2024-12-08},
+  title      = {Estimating the Hallucination Rate of Generative {AI}},
+  doi        = {10.48550/arXiv.2406.07457},
+  eprint     = {2406.07457 [cs]},
+  eprinttype = {arxiv},
+  url        = {http://arxiv.org/abs/2406.07457},
+  urldate    = {2025-09-08},
+  abstract   = {This paper presents a method for estimating the hallucination rate for in-context learning ({ICL}) with generative {AI}. In {ICL}, a conditional generative model ({CGM}) is prompted with a dataset and a prediction question and asked to generate a response. One interpretation of {ICL} assumes that the {CGM} computes the posterior predictive of an unknown Bayesian model, which implicitly defines a joint distribution over observable datasets and latent mechanisms. This joint distribution factorizes into two components: the model prior over mechanisms and the model likelihood of datasets given a mechanism. With this perspective, we define a hallucination as a generated response to the prediction question with low model likelihood given the mechanism. We develop a new method that takes an {ICL} problem and estimates the probability that a {CGM} will generate a hallucination. Our method only requires generating prediction questions and responses from the {CGM} and evaluating its response log probability. We empirically evaluate our method using large language models for synthetic regression and natural language {ICL} tasks.},
+  file       = {Preprint PDF:Jesson2024 - Estimating the Hallucination Rate of Generative AI.pdf:PDF:http\://arxiv.org/pdf/2406.07457v4},
+  keywords   = {Computer Science - Machine Learning, Statistics - Machine Learning},
+  number     = {{arXiv}:2406.07457},
+  priority   = {prio1},
+  publisher  = {{arXiv}},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
